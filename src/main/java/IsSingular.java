@@ -81,7 +81,7 @@ public class IsSingular {
     }
 
     public void loadImageAsMatrix(String imagePath) throws IOException {
-        BufferedImage image = ImageIO.read(new File(imagePath));
+        BufferedImage image = ImageIO.read(new File("x3.bmp"));
         int width = image.getWidth();
         int height = image.getHeight();
 

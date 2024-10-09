@@ -229,6 +229,7 @@ public class IsSingular {
         frame.pack();
         RefineryUtilities.centerFrameOnScreen(frame);
         frame.setVisible(true);
+        //Для відображення графіку відношення зміни точності до ітерації
     }
 
     private double computeLoss() {
